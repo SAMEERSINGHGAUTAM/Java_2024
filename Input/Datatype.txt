@@ -1,0 +1,4 @@
+Range of short data-type = -32768 to 32767 (signed 16 bits)
+Range of int data-type = -2147483648 to 2147483647 (signed 32 bits)
+Range of long data-type = -9223372036854775808 to 9223372036854775807 (signed 64 bits)
+
