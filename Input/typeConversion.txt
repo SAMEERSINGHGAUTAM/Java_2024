@@ -1,0 +1,32 @@
+Type Conversion --> also known as "widening conversion" --> also known as "implicit conversion"
+
+ Conversion happens when :
+ 1. type compatible
+	int <--> float (possible)
+	int <--> boolean (not possible)
+
+   Note -> Numbers can be converted into numbers only.
+ 	
+ 2. destination type must be greater than source type.
+
+ byte --> short --> int --> long
+ float --> double
+ --------->-------->--------->--------->-------------> (Conversion possible)  
+ <---------<-----------<-------------<------<--------- (conversion not possible)
+ Note -> sizeof(float) > sizeof(long) > sizeof(double)
+ For eg :-   int a = 25;
+ 	     long b = a; //(possible and correct)
+
+	     long k = 25;
+	     int b = k; //(not possible)  
+
+	     // Error -> possible lossy conversion from long to int
+
+	     Size of int data type = 4 bytes
+	     Size of long data type = 8 bytes
+       
+       Note - Two conditions are checked while conversion :
+       		1. int <--> long or long <--> int (Type compatible)
+		2. sizeof(int) < sizeof(long) => not possible or sizeof(long) > sizeof(int) => possible	
+
+
