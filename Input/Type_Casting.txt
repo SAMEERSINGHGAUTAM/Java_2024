@@ -1,0 +1,11 @@
+
+Type Casting --> also known as "Narrowing conversion" --> also known as "Explicit conversion"
+
+Forcefull conversion of values from one data type to another data type which is done manually. It is a type of loosy conversion.
+For eg:-  float a = 25.0;
+	  int b = (int) a;
+
+Exception :- 
+	Type conversion from 
+	char ---> int  (possible) ASCII value
+
