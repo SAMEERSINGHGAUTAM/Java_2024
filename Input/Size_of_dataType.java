@@ -32,7 +32,7 @@
 		System.out.println("Size of char data type : "+ Character.SIZE/8);
 		System.out.println("Size of float float type : "+ Float.SIZE/8);
 		System.out.println("Size of double data type : "+ Double.SIZE/8);
-		// System.out.print("Size of int data type : "+ Integer.SIZE/8);
+		// System.out.print("Size of boolean data type : "+ boolean.SIZE);
 
 
 	}
