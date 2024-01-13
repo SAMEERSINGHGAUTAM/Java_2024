@@ -1,0 +1,17 @@
+ JDK - Java Development KIT 
+ It cantains various development tools.
+
+ JRE - Java Runtime Environment 
+ It is a module of JDK which contains a java virtual machine (JVM) and some libraries. These tools within JRE help to run the java code.
+
+ Sequence of Execution
+
+ > Source code (.java) => Compiler => Byte code (.class) => Java Virtual Machine (JVM) => Native code (Binary code)
+ > Native code is platform dependent (that it is different for windows, different for linux and different for mac)
+ > Java code is platform independent (portable language). 
+
+ > Java Code -> byte code (process known as compilation)
+ 	In case of any syntax error, compilation process fails.
+ 
+ > Byte code -> Native code -> Execute (Execution process)
+ 
