@@ -1,0 +1,36 @@
+Type Promotion in Expressions
+
+1. Java automatically promotes each byte, short or char operand to int when evaluating an expression
+
+	For eg:- 
+			char a = 'a' ;
+
+			short b = 123;
+
+			Then (a+b) -> integer . Internally , a-> integer and b -> integer and then (a+b)
+
+2. If one operand is long, float or double the whole expression is promoted to long, float, or double respectively.
+
+	for eg:-  
+			char a = 'k';
+
+			short b = 123;
+
+			byte c = 56;
+
+			int d = 5678;
+
+			float e = 67.77f;
+
+			Then (a+b*c/d*e) -> float
+
+			float + long = float 
+		float + long + double = double 
+
+3. byte b = 5;
+   b = b*2; // wrong 
+
+   As range of byte is -128 to 127 and 10 lies in this range.(b*2) is an expression where b belongs to byte data type and 2 belongs to integer data type, so type promotion    happens and (b*2) belongs to integer data type.
+
+   byte b = 5;
+   b = (byte) (b*2) // correct
