@@ -1,0 +1,34 @@
+Question 1: In a program, input three numbers : A, B and C. You have to output the average of these three numbers.
+
+	Pseudocode :-
+			Step-1 Start
+			Step-2 Input A,B and C
+			Step-3 Let Average = 0
+			Step-4 Average = (A+B+C)/3
+			Step-5 Output Average
+			Step-6 End
+
+Question 2: In a program, input the side of a square. You have to output the area of the square.
+
+	Pseudocode :- 
+			Step-1 Start 
+			Step-2 Input A
+			Step-3 Let area = 0
+			Step-4 area = A*A
+			Step-5 Output area
+			Step-6 End
+
+Question -3 Enter the cost of three items (using float data type)- a pencil, a pen and an erase. You have to output the total cost of the items back to the user as their bill.
+
+(Add on : You can also try adding 18% gst tax to the items in the bill as an advavanced problem.
+
+	Psedocode :-
+			step-1 start
+			Step-2 Input A, B and C
+			step-3 Let Cost = 0
+			Step-4 Cost = A + B + C
+			Step-5 GstCost = 0.18*Cost
+			Step-6 Output GstCost
+			Step-7 End
+
+	
