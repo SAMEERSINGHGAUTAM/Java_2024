@@ -28,7 +28,25 @@ Question -3 Enter the cost of three items (using float data type)- a pencil, a p
 			step-3 Let Cost = 0
 			Step-4 Cost = A + B + C
 			Step-5 GstCost = 0.18*Cost
-			Step-6 Output GstCost
+			Step-6 Output (GstCost + Cost)
 			Step-7 End
+
+Question-4 What will be the type of result in the following Java code.
+
+	byte b = 4;
+	char c = 'a';
+	short s = 512;
+	int i = 1000;
+	float f = 3.14f;
+	double d = 99.9954;
+
+	result = (f * b) + (i % c) - (d * s);
+
+ Ans   result = float + int - double = double
+
+Question-5 Will the following statement give any error in java?
+
+		int $ = 24;
+ Ans   Yes, this statement will give error because variable names do not contain any special character except "_". Here the variable name contains $.
 
 	

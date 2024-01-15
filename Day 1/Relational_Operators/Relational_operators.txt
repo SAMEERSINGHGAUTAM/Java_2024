@@ -1,0 +1,4 @@
+== 
+-> This operator is used to check whether two value are equal or not.
+	Return value -> If equal => true
+			If not equal => false
