@@ -18,4 +18,8 @@
 
 >= (greater than or equal to)
 -> This operator is used to compare two values. 
-	Return value -> If two values are equal or value on RHS is greater than the 
+	Return value -> If two values are equal or value on LHS is greater than the value on the RHS.
+
+<= (less than or equal to)
+-> This operator is used to compare two values.
+	Return value -> If two values are equal or value on LHS is smaller than the value on the RHS.
