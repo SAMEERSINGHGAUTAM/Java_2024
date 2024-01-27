@@ -1,0 +1,25 @@
+Unary Operators => ++, --
+
+a = a+1 = a++ = ++a 
+a = a-1 = a-- = --a
+
+++ => increment operator
+-- => decrement operator
+
+> Increment operator 
+	> Pre - increment (++a)
+	  Step-1 Value change
+	  Step-2 Value use
+	
+	> Post - increment (a++)
+	  Step-1 Value use
+	  Step-2 Value change
+
+> Decrement operator
+	> Pre - decrement
+	  Step-1 Value change
+	  Step-2 Value use
+
+	> Post - decrement
+	  Step-1 Value use
+	  Step-2 Value change

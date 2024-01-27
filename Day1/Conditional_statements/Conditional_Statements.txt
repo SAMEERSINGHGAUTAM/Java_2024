@@ -1,0 +1,43 @@
+ Condition -> true -> work
+	      false -> work
+ 
+ Real-life conditions are implemented in code using conditional statements.
+
+ Conditional Statements :-
+
+ > if-else Statements :-
+
+ 	if (condition) {
+           
+		// lines of code (get executed only if condition is true)
+
+	}
+
+	else {
+
+
+		// lines of code (get executed only if condition is false)
+
+	}
+
+ > else if Statements :-
+
+ 	if(condition 1) {
+
+	} 
+
+	else if (Condition) {
+
+	} 
+
+	else {
+
+	}
+
+ > ternary operator :-
+ 		
+		variable = condition ? statement1 : statement2;
+
+		: means "if not then" (Nahi to)
+
+ switch
