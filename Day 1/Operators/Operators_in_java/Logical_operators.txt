@@ -1,8 +1,0 @@
-Statement 1 -> (3 > 2) => true
-Statement 2 -> (1 != 1) => false
-Statement 3 -> (5 < 10) => true
-
-When we prepare some logics on the base of these kind of statements then we make such logics using logical operators.
-
-Logical Operators :-
- 1. && (Logical 
